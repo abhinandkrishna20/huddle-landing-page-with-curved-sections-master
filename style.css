@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    /* overflow: auto; */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 100%;
+    padding: 1rem;
+}
+
+.header-nav  {  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+.header-nav .btn {
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    color: hsl(322, 100%, 66%);
+}
+
+.header-nav .btn:hover {
+    box-shadow: 0rem 0.1rem 0.5rem hsl(322, 100%, 66%);
+    transition: 0.5s;
+}
+
+.container .header-row {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.container .header-row .col {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0rem 5rem;
+    text-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.179);
+}
+
+.container .header-row .col h1 ,.container .header-row .col p {
+    margin-bottom: 3rem;
+}
+.container .header-row .col p  {
+    width: 50%;
+    transform: translate(50%);
+    font-size: 1.5rem;
+}
+.container .header-row .col h1  {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.container .header-row .col a  {
+    width: 100%;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.512);
+}
+
+.container .header-row .col a:hover {
+    background: hsl(321, 100%, 78%);
+    transition: 0.5s;
+}
+
+.communities {
+    margin: 3rem 0rem;
+}
+
+.communities .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.communities .col h2 {
+    font-size: 8rem;
+}
+
+.communities .col img {
+    margin-left: -10rem;
+}
+
+.communities .col span {
+    font-size: 1.5rem;
+    color: rgb(150, 150, 150);
+    margin-top: -1rem;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-left h1 {
+    font-size: 5rem;
+}
+.marginy {
+    margin: 3rem 0rem;
+}
+.col-left p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.col-right img {
+    width: 100%;
+}
+.padding5 {
+    padding: 5rem;
+}
+
+.section5 .container .row {
+    height: 40vh;
+}
+
+.section5 .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 .container .row h1 {
+    font-size: 4.5rem;
+    margin-bottom: 2.5rem;
+}
+.section5 .container .row .btn a {
+    width: 100%;
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.512);
+}
+
+.section5 .container .row .btn a:hover {
+    background: hsl(321, 100%, 78%);
+    transition: 0.5s;
+}
+
+.footer-bg{
+    background-image: url(images/bg-footer-top-desktop.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    height: 15rem;
+}
+
+footer {
+    background-color: #00252E;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-left h3, .footer-left p, .footer-left span, .footer-left .logolar {
+    margin-top: 2rem;
+}
+.footer-left h3 {
+    text-transform: uppercase;
+}
+.logolar img {
+    cursor: pointer;
+}
+.logolar img:hover {
+    filter: invert(100%);
+    transition: 0.5s;
+}
+.form form {
+    margin: 2rem 0rem;
+    display: flex;
+}
+.form form input {
+    height: 3rem;
+    width: 20rem;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    padding: 0rem 1rem;
+}
+
+
+.form button {
+    width: 8rem;
+    background: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.form button:hover {
+    background: hsl(321, 100%, 78%);
+    transition: 0.5s;
+}
+
+.grow-together-bg-top {
+    background-image: url("images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+}
+
+.grow-together-bg-bottom {
+    background-image: url("images/bg-section-bottom-mobile-1.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+}
+
+.your-users-top {
+    background-image: url("images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+}
+.your-users {
+    background-color: hsl(207, 100%, 98%);
+}
+.your-users-bottom {
+    background-image: url("images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+}
+
+.grow-together {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.attribution {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    color: white;
+}
+
+.attribution a {
+    font-size: 1.2rem;
+    color: hsl(322, 100%, 66%);
+}
+
+.attribution a:hover {
+    color: hsl(321, 100%, 78%);
+    transition: 0.5s;
+}
+.logolar img {
+    width: 3em;
+}
+/* responsive */
+@media (max-width:1300px) {
+    .padding5 h1 {
+        font-size: 3rem;
+    }
+    .padding5 {
+        padding: 4rem;
+    }
+    .padding5 p {
+        font-size: 1.5rem;
+    }
+    .section5 .container .row h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .container .header-row .col p  {
+        width: 100%;
+        transform: translate(0%);
+        font-size: 1.5rem;
+    }
+    .container .header-row .col h1 {
+        font-size: 2.5rem;
+    }
+    .container .header-row .col p {
+        font-size: 1.2rem;
+    }
+    .section5 .container .row h1 {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .form form {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form form input {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+.screen-mockups {
+    width: 100%;
+    padding: 2rem;
+}
+}
+
+
+
+@media (max-width:990px) {
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+    .flowing-Conversations .container .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:790px) {
+    .section5 .container .row h1 {
+        font-size: 2.4rem;
+    }
+    .header-nav {
+        padding: 2rem 1.5rem;
+    }
+    h1 {
+        text-align: center;
+    }
+    
+    .footer-bg{
+        background-image: url("images/bg-footer-top-mobile.svg");
+    }
+    .grow-together-bg-bottom {
+        background-image: url("images/bg-section-bottom-mobile-1.svg");
+    }
+    .grow-together-bg-top {
+        background-image: url("images/bg-section-top-mobile-1.svg");
+    }
+    .your-users-top {
+        background-image: url("images/bg-section-top-mobile-2.svg");
+    }
+    .your-users-bottom {
+        background-image: url("images/bg-section-bottom-mobile-2.svg");
+    }
+}
+
+@media (max-width:600px) {
+    .header-nav a img {
+        width: 50%;
+    }
+    .header-nav .btn {
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+        border-radius: 2rem;
+        color: hsl(322, 100%, 66%);
+    }
+    .section5 .container .row .btn a {
+        padding: 0.5rem 1.5rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+    .container .header-row .col a {
+        padding: 0.5rem 1.5rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+    .logolar img {
+        width: 2em;
+    }
+}
